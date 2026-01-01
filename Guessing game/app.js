@@ -16,6 +16,6 @@ while(true){
     }else if(guess<random){
         guess = prompt("Guess was too small. Try again");
     }else{
-        guess = prompt("Guess was large. Try again.")
+        guess = prompt("Guess was large. Try again.");
     }
 }

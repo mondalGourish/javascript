@@ -1,4 +1,5 @@
-// QUESTION 1
+
+//QUESTION 1
 // let nums = parseInt(prompt("Enter the number of elements:"));
 // let arr = [];
 // for(let i=0; i<nums; i++){
@@ -7,7 +8,7 @@
 // }
 // console.log(arr);
 // let number = parseInt(prompt("Enter the number to delete:"));
-// for(let i=0; i<arr.length; i++){
+// for(let i=arr.length; i>=0; i--){
 //     if(arr[i]==number){
 //         arr.splice(i, 1);
         
@@ -49,17 +50,17 @@
 // console.log(fact);
 
 //Question 5
-// let arr = [];
-// let  largest = 0;
-// let nums = parseInt(prompt("Enter the number of elements:"));
-// for(let i=0; i<nums; i++){
-//     let value = prompt(`Enter the values ${i+1}:`);
-//     arr.push(value);
+let arr = [];
+let  largest = 0;
+let nums = parseInt(prompt("Enter the number of elements:"));
+for(let i=0; i<nums; i++){
+    let value = prompt(`Enter the values ${i+1}:`);
+    arr.push(value);
 
-// }
-// for(let i=0; i<arr.length; i++){
-//     if(arr[i]>largest){
-//         largest = arr[i];
-//     }
-// }
-// console.log(largest);
+}
+for(let i=0; i<arr.length; i++){
+    if(arr[i]>largest){
+        largest = arr[i];
+    }
+}
+console.log(largest);

@@ -1,18 +1,18 @@
-// let msg = "help!";
-// console.log(msg.trim().toUpperCase());//Help!
-// let name = "ApnaCollege";
-// let name1 = name.slice(4,9); //colle
-// let name2 = name.indexOf("na");//2
-// let name3 = name.replace("Apna","Our");//OurCollege
-// let name4 = name.slice(4).replace("l","t");//cotlege
-// let name5 = name4.replace("l","t");//cottege
-// let nums = [2,4,6,"aman"];
-// let cars = ["audi", "bmw", "maruti"];
-// cars.push("toyota");
-// cars.unshift("ferrrari");
-// let month = ["january", "july", "march", "august"];
-// month.splice(1,0,'june');
-//let tic = [['*','_','0'], ['_','*','_'], ['0','_','*']];
+// let msg = "   help!   ";
+// console.log(msg.trim().toUpperCase());//HELP!
+let name = "ApnaCollege";
+let name1 = name.slice(4,9); //colle
+let name2 = name.indexOf("na");//2
+let name3 = name.replace("Apna","Our");//OurCollege
+let name4 = name.slice(4).replace("l","t");//cotlege
+let name5 = name4.replace("l","t");//cottege
+let nums = [2,4,6,"aman"];
+let cars = ["audi", "bmw", "maruti"];
+cars.push("toyota");
+cars.unshift("ferrrari");
+let month = ["january", "july", "march", "august"];
+month.splice(1,0,'june');
+let tic = [['*','_','0'], ['_','*','_'], ['0','_','*']];
 //ASSIGNMENT 3
 //1>
 //  let arr = [7,9,0,-2];
@@ -48,6 +48,8 @@
 // }else{
 //     console.log("Not present");
 // }
+
+//javascript_4
 /*for(let i=1; i<5; i++){
     
     console.log(i);

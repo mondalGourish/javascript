@@ -40,44 +40,8 @@
 //ASSIGNMENT
 //1
 
-// let input;
 
-// while(true){
-//     input = parseInt(prompt("Enter the number:"));
-//     if(input>=1 && input<=6){
-//         break;
-//     }else{
-//         input = prompt("Invalid input. Try again");
-//     }
-// }
-// const random = Math.floor(Math.random()*6)+1;
-// let guess = prompt("Guess the number.");
-
-// while(true){
-//     if(guess == "quit"){
-//         console.log("You Quit");
-//         break;
-//     }
-//     guess = parseInt(guess);
-//     if(guess == random){
-//         console.log("Congrats!!. Dice faced",input);
-//         break;
-//     }else{
-//         guess = prompt("Enter again:");
-//     }
-// }
-let input;
-
-while (true) {
-    input = parseInt(prompt("Enter a number between 1 and 6:"));
-    if (input >= 1 && input <= 6) {
-        break;
-    } else {
-        alert("Invalid input. Try again!");
-    }
-}
-
-const random = Math.floor(Math.random() * 6) + 1;
+const random = Math.floor(Math.random() * 6) + 1;//already takes a random input between 1 and 6
 let guess = prompt("Guess the number (type 'quit' to exit):");
 
 while (true) {
