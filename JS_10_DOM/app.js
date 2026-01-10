@@ -36,17 +36,34 @@
 //     console.log("Mouse entered the box");
 // });
 
-let h1 = document.querySelector('h1');
-let h3 = document.querySelector('h3');
-let p = document.querySelector('p');
-let btn = document.querySelector('button');
+// let h1 = document.querySelector('h1');
+// let h3 = document.querySelector('h3');
+// let p = document.querySelector('p');
+// let btn = document.querySelector('button');
 
-function changeColor(){
-    console.dir(this.innerText);
-    this.style.backgroundColor = "pink";
-}
+// function changeColor(){
+//     console.dir(this.innerText);
+//     this.style.backgroundColor = "pink";
+// }
 
-h1.addEventListener('click',changeColor);
-h3.addEventListener('click',changeColor);
-p.addEventListener('click',changeColor);
-btn.addEventListener('click',changeColor);
+// h1.addEventListener('click',changeColor);
+// h3.addEventListener('click',changeColor);
+// p.addEventListener('click',changeColor);
+// btn.addEventListener('click',);
+
+// let input = document.querySelector('input');
+// input.addEventListener('keydown', function(event){
+//     console.log(event);
+//     console.log('key pressed'); 
+// });
+// input.addEventListener('keyup', function(){
+//     console.log('key up');
+// });
+
+let form = document.querySelector('form');
+form.addEventListener('submit', function(event){
+    event.preventDefault();
+    let inp = document.querySelector('input');
+    console.dir(inp);
+    console.log(inp.value);
+});
