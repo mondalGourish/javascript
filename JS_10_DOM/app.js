@@ -60,10 +60,33 @@
 //     console.log('key up');
 // });
 
-let form = document.querySelector('form');
-form.addEventListener('submit', function(event){
-    event.preventDefault();
-    let inp = document.querySelector('input');
-    console.dir(inp);
-    console.log(inp.value);
+// let form = document.querySelector('form');
+// form.addEventListener('submit', function(event){
+//     event.preventDefault();
+//     let inp = document.querySelector('input');
+//     console.dir(inp);
+//     console.log(inp.value);
+// });
+
+// let inp = document.querySelector('#box');
+// let p = document.querySelector('p');
+// inp.addEventListener('input', function(){
+//     console.log(inp.value);
+//     p.innerText = inp.value;
+// });
+
+// const button = document.querySelector('button');
+// button.innerText = "Click Me";
+
+// button.addEventListener('click', function(){
+//     button.style.backgroundColor = "green";
+// });
+
+const inp = document.querySelector('input');
+const heading = document.querySelector('h2');
+
+inp.addEventListener('input', function(){
+    let filteredValue = inp.value.replace(/[^a-zA-Z]/g," ");
+    inp.value = filteredValue;
+    heading.innerText = filteredValue;
 });

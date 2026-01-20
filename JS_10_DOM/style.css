@@ -4,3 +4,10 @@
     background-color: pink;
     border: 1px solid black; 
 }
+#box{
+    height:50px;
+    width:500px;
+    background-color: aquamarine;
+    margin:auto;
+
+}
