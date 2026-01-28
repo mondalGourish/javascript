@@ -26,18 +26,29 @@ function changeColor(color,delay){
 
     });
 }
-changeColor("red",1000)
-.then(()=>{
-    console.log("Red done.");
-    return changeColor("orange", 1000);
-})
-.then(()=>{
-    console.log("Orange done.");
-    return changeColor("green", 1000);
-})
-.then(()=>{
-    console.log("Green done.");
-})
+// changeColor("red",1000)
+// .then(()=>{
+//     console.log("Red done.");
+//     return changeColor("orange", 1000);
+// })
+// .then(()=>{
+//     console.log("Orange done.");
+//     return changeColor("green", 1000);
+// })
+// .then(()=>{
+//     console.log("Green done.");
+// })
+
+//using async and await
+async function demo(){
+    await changeColor("violet",1000);
+    await changeColor("indigo",1000);
+    await changeColor("blue",1000);
+    await changeColor("green",1000);
+    await changeColor("yellow",1000);
+    await changeColor("orange",1000);
+    changeColor("red",1000);
+}
 
 
 
